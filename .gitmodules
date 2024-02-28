@@ -1,0 +1,6 @@
+[submodule "lab02/rest-service/json"]
+	path = lab02/rest-service/json
+	url = https://github.com/nlohmann/json.git
+[submodule "lab02/rest-service/cpp-httplib"]
+	path = lab02/rest-service/cpp-httplib
+	url = https://github.com/yhirose/cpp-httplib.git

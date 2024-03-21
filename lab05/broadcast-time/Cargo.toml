@@ -1,0 +1,15 @@
+[package]
+name = "broadcast-time"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.35"
+
+[[bin]]
+name = "client"
+path = "src/client/main.rs"
+
+[[bin]]
+name = "server"
+path = "src/server/main.rs"

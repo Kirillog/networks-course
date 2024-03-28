@@ -1,0 +1,11 @@
+[package]
+name = "ftp-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ftp = "3.0.1"
+
+[[bin]]
+name = "ftp-client"
+path = "src/main.rs"

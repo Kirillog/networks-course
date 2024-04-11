@@ -1,0 +1,19 @@
+[package]
+name = "protocol"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8.5"
+log = "0.4"
+zerocopy = { version = "0.7.32", features = ["derive"] }
+checksums = { path = "../checksums", version = "0.1.0" }
+env_logger = "0.11.3"
+
+[[bin]]
+name = "client"
+path = "src/client/main.rs"
+
+[[bin]]
+name = "server"
+path = "src/server/main.rs"

@@ -1,0 +1,11 @@
+[package]
+name = "icmp-ping"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+socket2 = { version = "0.5.7", features = ["all"] }
+chrono = "0.4.35"
+
+[[bin]]
+name = "icmp-ping"

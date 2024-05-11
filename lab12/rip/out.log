@@ -1,0 +1,46 @@
+Router 45.246.10.59:
+[Route { dest_ip: 0.0.0.0, metric: 16 }, Route { dest_ip: 45.246.10.59, metric: 0 }, Route { dest_ip: 0.0.0.0, metric: 16 }, Route { dest_ip: 96.243.54.60, metric: 1 }, Route { dest_ip: 0.0.0.0, metric: 16 }]
+Router 45.246.10.59:
+[Route { dest_ip: 0.0.0.0, metric: 16 }, Route { dest_ip: 45.246.10.59, metric: 0 }, Route { dest_ip: 11.103.52.198, metric: 1 }, Route { dest_ip: 96.243.54.60, metric: 1 }, Route { dest_ip: 0.0.0.0, metric: 16 }]
+Router 96.243.54.60:
+[Route { dest_ip: 0.0.0.0, metric: 16 }, Route { dest_ip: 45.246.10.59, metric: 1 }, Route { dest_ip: 0.0.0.0, metric: 16 }, Route { dest_ip: 96.243.54.60, metric: 0 }, Route { dest_ip: 0.0.0.0, metric: 16 }]
+Router 11.103.52.198:
+[Route { dest_ip: 0.0.0.0, metric: 16 }, Route { dest_ip: 45.246.10.59, metric: 1 }, Route { dest_ip: 11.103.52.198, metric: 0 }, Route { dest_ip: 0.0.0.0, metric: 16 }, Route { dest_ip: 0.0.0.0, metric: 16 }]
+Router 11.103.52.198:
+[Route { dest_ip: 185.16.200.167, metric: 1 }, Route { dest_ip: 45.246.10.59, metric: 1 }, Route { dest_ip: 11.103.52.198, metric: 0 }, Route { dest_ip: 0.0.0.0, metric: 16 }, Route { dest_ip: 0.0.0.0, metric: 16 }]
+Router 185.16.200.167:
+[Route { dest_ip: 185.16.200.167, metric: 0 }, Route { dest_ip: 0.0.0.0, metric: 16 }, Route { dest_ip: 0.0.0.0, metric: 16 }, Route { dest_ip: 96.243.54.60, metric: 1 }, Route { dest_ip: 0.0.0.0, metric: 16 }]
+Router 185.16.200.167:
+[Route { dest_ip: 185.16.200.167, metric: 0 }, Route { dest_ip: 45.246.10.59, metric: 1 }, Route { dest_ip: 0.0.0.0, metric: 16 }, Route { dest_ip: 96.243.54.60, metric: 1 }, Route { dest_ip: 0.0.0.0, metric: 16 }]
+Router 185.16.200.167:
+[Route { dest_ip: 185.16.200.167, metric: 0 }, Route { dest_ip: 45.246.10.59, metric: 1 }, Route { dest_ip: 11.103.52.198, metric: 1 }, Route { dest_ip: 96.243.54.60, metric: 1 }, Route { dest_ip: 0.0.0.0, metric: 16 }]
+Router 45.246.10.59:
+[Route { dest_ip: 185.16.200.167, metric: 1 }, Route { dest_ip: 45.246.10.59, metric: 0 }, Route { dest_ip: 11.103.52.198, metric: 1 }, Route { dest_ip: 96.243.54.60, metric: 1 }, Route { dest_ip: 0.0.0.0, metric: 16 }]
+Router 96.243.54.60:
+[Route { dest_ip: 185.16.200.167, metric: 1 }, Route { dest_ip: 45.246.10.59, metric: 1 }, Route { dest_ip: 0.0.0.0, metric: 16 }, Route { dest_ip: 96.243.54.60, metric: 0 }, Route { dest_ip: 0.0.0.0, metric: 16 }]
+Router 96.243.54.60:
+[Route { dest_ip: 185.16.200.167, metric: 1 }, Route { dest_ip: 45.246.10.59, metric: 1 }, Route { dest_ip: 0.0.0.0, metric: 16 }, Route { dest_ip: 96.243.54.60, metric: 0 }, Route { dest_ip: 206.242.61.6, metric: 1 }]
+Router 206.242.61.6:
+[Route { dest_ip: 0.0.0.0, metric: 16 }, Route { dest_ip: 0.0.0.0, metric: 16 }, Route { dest_ip: 0.0.0.0, metric: 16 }, Route { dest_ip: 96.243.54.60, metric: 1 }, Route { dest_ip: 206.242.61.6, metric: 0 }]
+Router 11.103.52.198:
+[Route { dest_ip: 185.16.200.167, metric: 1 }, Route { dest_ip: 45.246.10.59, metric: 1 }, Route { dest_ip: 11.103.52.198, metric: 0 }, Route { dest_ip: 96.243.54.60, metric: 2 }, Route { dest_ip: 0.0.0.0, metric: 16 }]
+Router 96.243.54.60:
+[Route { dest_ip: 185.16.200.167, metric: 1 }, Route { dest_ip: 45.246.10.59, metric: 1 }, Route { dest_ip: 11.103.52.198, metric: 2 }, Route { dest_ip: 96.243.54.60, metric: 0 }, Route { dest_ip: 206.242.61.6, metric: 1 }]
+Router 206.242.61.6:
+[Route { dest_ip: 185.16.200.167, metric: 2 }, Route { dest_ip: 45.246.10.59, metric: 2 }, Route { dest_ip: 11.103.52.198, metric: 3 }, Route { dest_ip: 96.243.54.60, metric: 1 }, Route { dest_ip: 206.242.61.6, metric: 0 }]
+Router 45.246.10.59:
+[Route { dest_ip: 185.16.200.167, metric: 1 }, Route { dest_ip: 45.246.10.59, metric: 0 }, Route { dest_ip: 11.103.52.198, metric: 1 }, Route { dest_ip: 96.243.54.60, metric: 1 }, Route { dest_ip: 206.242.61.6, metric: 2 }]
+Router 185.16.200.167:
+[Route { dest_ip: 185.16.200.167, metric: 0 }, Route { dest_ip: 45.246.10.59, metric: 1 }, Route { dest_ip: 11.103.52.198, metric: 1 }, Route { dest_ip: 96.243.54.60, metric: 1 }, Route { dest_ip: 206.242.61.6, metric: 2 }]
+Router 11.103.52.198:
+[Route { dest_ip: 185.16.200.167, metric: 1 }, Route { dest_ip: 45.246.10.59, metric: 1 }, Route { dest_ip: 11.103.52.198, metric: 0 }, Route { dest_ip: 96.243.54.60, metric: 2 }, Route { dest_ip: 206.242.61.6, metric: 3 }]
+Final state of router 11.103.52.198 table:
+ [Route { dest_ip: 185.16.200.167, metric: 1 }, Route { dest_ip: 45.246.10.59, metric: 1 }, Route { dest_ip: 11.103.52.198, metric: 0 }, Route { dest_ip: 96.243.54.60, metric: 2 }, Route { dest_ip: 206.242.61.6, metric: 3 }]
+Final state of router 206.242.61.6 table:
+ [Route { dest_ip: 185.16.200.167, metric: 2 }, Route { dest_ip: 45.246.10.59, metric: 2 }, Route { dest_ip: 11.103.52.198, metric: 3 }, Route { dest_ip: 96.243.54.60, metric: 1 }, Route { dest_ip: 206.242.61.6, metric: 0 }]
+Final state of router 96.243.54.60 table:
+ [Route { dest_ip: 185.16.200.167, metric: 1 }, Route { dest_ip: 45.246.10.59, metric: 1 }, Route { dest_ip: 11.103.52.198, metric: 2 }, Route { dest_ip: 96.243.54.60, metric: 0 }, Route { dest_ip: 206.242.61.6, metric: 1 }]
+Final state of router 185.16.200.167 table:
+ [Route { dest_ip: 185.16.200.167, metric: 0 }, Route { dest_ip: 45.246.10.59, metric: 1 }, Route { dest_ip: 11.103.52.198, metric: 1 }, Route { dest_ip: 96.243.54.60, metric: 1 }, Route { dest_ip: 206.242.61.6, metric: 2 }]
+Final state of router 45.246.10.59 table:
+ [Route { dest_ip: 185.16.200.167, metric: 1 }, Route { dest_ip: 45.246.10.59, metric: 0 }, Route { dest_ip: 11.103.52.198, metric: 1 }, Route { dest_ip: 96.243.54.60, metric: 1 }, Route { dest_ip: 206.242.61.6, metric: 2 }]

@@ -1,0 +1,17 @@
+[package]
+name = "rest-service"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = { version = "0.7.5", features = ["macros", "multipart"] }
+chrono = "0.4.38"
+full = "0.1.0"
+lettre = "0.11.7"
+serde = { version = "1.0.202", features = ["std", "derive"] }
+serde_with = { version = "3.8.1", features = ["macros"] }
+tokio = { version = "1.37.0", features = ["full"] }
+tracing-subscriber = "0.3.18"
+uuid = { version = "1.8.0", features = ["v4", "serde"] }

@@ -1,0 +1,363 @@
+{
+	"id": "4ee937da-393f-4be2-a0b0-c5bd7cf085d1",
+	"name": "Lab14",
+	"timestamp": "2024-05-25T13:11:27.754Z",
+	"collection_id": "33112436-0d9fb2a4-41b2-4817-9ce5-8c00c061ad32",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 11,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-05-25T13:11:27.165Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "a3c2bb93-6c18-4682-9a03-3503014ac6e5",
+			"name": "Sing up",
+			"url": "localhost:8080/user/signup",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "eaa5ea13-b83d-459c-9ec6-daa547ed75ed",
+			"name": "Sing in",
+			"url": "localhost:8080/user/signin",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"An access token is returned": true
+			},
+			"testPassFailCounts": {
+				"An access token is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"An access token is returned": true
+				}
+			]
+		},
+		{
+			"id": "1c261b53-262e-45db-be92-dd54818b2a47",
+			"name": "Post product",
+			"url": "localhost:8080/product?token=40bb0054-9937-4777-9ac9-9d212cac110e",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"A product is returned": true
+			},
+			"testPassFailCounts": {
+				"A product is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"A product is returned": true
+				}
+			]
+		},
+		{
+			"id": "6f11f6d2-742c-4024-9fca-12747cddaef7",
+			"name": "Post another product",
+			"url": "localhost:8080/product?token=40bb0054-9937-4777-9ac9-9d212cac110e",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"An product is returned": true
+			},
+			"testPassFailCounts": {
+				"An product is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"An product is returned": true
+				}
+			]
+		},
+		{
+			"id": "673bc585-a4cf-4dd6-9916-a87274728c84",
+			"name": "Get product",
+			"url": "localhost:8080/product/0?token=40bb0054-9937-4777-9ac9-9d212cac110e",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"A product is returned": true
+			},
+			"testPassFailCounts": {
+				"A product is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"A product is returned": true
+				}
+			]
+		},
+		{
+			"id": "ff1ff2ac-b623-4160-9e6d-6fce6b581dcd",
+			"name": "Change product",
+			"url": "localhost:8080/product/0?token=40bb0054-9937-4777-9ac9-9d212cac110e",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Changed product is returned": true
+			},
+			"testPassFailCounts": {
+				"Changed product is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Changed product is returned": true
+				}
+			]
+		},
+		{
+			"id": "05a49f7e-7556-48a3-bff7-0126be02e84e",
+			"name": "Get all products",
+			"url": "localhost:8080/products?token=40bb0054-9937-4777-9ac9-9d212cac110e",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Products are returned": true
+			},
+			"testPassFailCounts": {
+				"Products are returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Products are returned": true
+				}
+			]
+		},
+		{
+			"id": "3d3d667c-9f31-4182-bac2-27551be21fd4",
+			"name": "Sing up second",
+			"url": "localhost:8080/user/signup",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "625dab6d-ab80-4345-9c7a-94cfe6b49f01",
+			"name": "Sing in second",
+			"url": "localhost:8080/user/signin",
+			"time": 1,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"An access token is returned": true
+			},
+			"testPassFailCounts": {
+				"An access token is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1
+			],
+			"allTests": [
+				{
+					"An access token is returned": true
+				}
+			]
+		},
+		{
+			"id": "b58f21de-6f97-4d75-a2fd-43a234ded2f7",
+			"name": "Get all products",
+			"url": "localhost:8080/products?token=21be55a1-818a-4deb-acf9-b0dffebe332b",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Products are returned": true
+			},
+			"testPassFailCounts": {
+				"Products are returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Products are returned": true
+				}
+			]
+		},
+		{
+			"id": "cadfc3d6-c987-44fa-900a-26016dbe7c6a",
+			"name": "Get all public products",
+			"url": "localhost:8080/products?token=",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Products are returned": true
+			},
+			"testPassFailCounts": {
+				"Products are returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Products are returned": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 22,
+	"collection": {
+		"requests": [
+			{
+				"id": "a3c2bb93-6c18-4682-9a03-3503014ac6e5",
+				"method": "POST"
+			},
+			{
+				"id": "eaa5ea13-b83d-459c-9ec6-daa547ed75ed",
+				"method": "POST"
+			},
+			{
+				"id": "1c261b53-262e-45db-be92-dd54818b2a47",
+				"method": "POST"
+			},
+			{
+				"id": "6f11f6d2-742c-4024-9fca-12747cddaef7",
+				"method": "POST"
+			},
+			{
+				"id": "673bc585-a4cf-4dd6-9916-a87274728c84",
+				"method": "GET"
+			},
+			{
+				"id": "ff1ff2ac-b623-4160-9e6d-6fce6b581dcd",
+				"method": "PUT"
+			},
+			{
+				"id": "05a49f7e-7556-48a3-bff7-0126be02e84e",
+				"method": "GET"
+			},
+			{
+				"id": "3d3d667c-9f31-4182-bac2-27551be21fd4",
+				"method": "POST"
+			},
+			{
+				"id": "625dab6d-ab80-4345-9c7a-94cfe6b49f01",
+				"method": "POST"
+			},
+			{
+				"id": "b58f21de-6f97-4d75-a2fd-43a234ded2f7",
+				"method": "GET"
+			},
+			{
+				"id": "cadfc3d6-c987-44fa-900a-26016dbe7c6a",
+				"method": "GET"
+			}
+		]
+	}
+}

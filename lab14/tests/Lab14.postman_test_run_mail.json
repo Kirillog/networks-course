@@ -1,0 +1,115 @@
+{
+	"id": "a1cfb34e-c6b5-4748-9368-d29b0ab6aa43",
+	"name": "Lab14",
+	"timestamp": "2024-05-25T13:18:44.792Z",
+	"collection_id": "33112436-0d9fb2a4-41b2-4817-9ce5-8c00c061ad32",
+	"folder_id": "33112436-fd8a5094-2c92-4d8f-a5ad-227926312a69",
+	"environment_id": "0",
+	"totalPass": 3,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-05-25T13:18:44.180Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b53754a3-5815-4a6e-83dd-365dec84c27f",
+			"name": "Sing up",
+			"url": "localhost:8080/user/signup",
+			"time": 6,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				6
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e3cf1d2e-4ae1-4709-9035-c65a69e08877",
+			"name": "Sing in",
+			"url": "localhost:8080/user/signin",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"An access token is returned": true
+			},
+			"testPassFailCounts": {
+				"An access token is returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"An access token is returned": true
+				}
+			]
+		},
+		{
+			"id": "e776198c-6821-4207-9e7f-3f2a4e169114",
+			"name": "Get all public products",
+			"url": "localhost:8080/products?token=21be55a1-818a-4deb-acf9-b0dffebe332b",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Products are returned": true
+			},
+			"testPassFailCounts": {
+				"Products are returned": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Products are returned": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 10,
+	"collection": {
+		"requests": [
+			{
+				"id": "b53754a3-5815-4a6e-83dd-365dec84c27f",
+				"method": "POST"
+			},
+			{
+				"id": "e3cf1d2e-4ae1-4709-9035-c65a69e08877",
+				"method": "POST"
+			},
+			{
+				"id": "e776198c-6821-4207-9e7f-3f2a4e169114",
+				"method": "GET"
+			}
+		]
+	}
+}
